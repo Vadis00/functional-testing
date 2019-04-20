@@ -1,0 +1,169 @@
+{
+  "id": "3e0fc94d-b60f-4102-aae8-44b7b857bc52",
+  "version": "2.0",
+  "name": "One",
+  "url": "http://automationpractice.com/index.php",
+  "tests": [{
+    "id": "4559fa47-3c8d-4576-a198-a6e2cd46d45b",
+    "name": "Untitled",
+    "commands": [{
+      "id": "f693963c-f7a8-457e-9518-3254072f6c75",
+      "comment": "",
+      "command": "open",
+      "target": "http://automationpractice.com/index.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "10330f5d-ca64-4b4e-9efe-a41a244f8163",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x776",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ddf4603-1ae3-41ce-b7e2-dcf8f2dc0672",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Sign in",
+      "targets": [
+        ["linkText=Sign in", "linkText"],
+        ["css=.login", "css:finder"],
+        ["xpath=//a[contains(text(),'Sign in')]", "xpath:link"],
+        ["xpath=//header[@id='header']/div[2]/div/div/nav/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=my-account']", "xpath:href"],
+        ["xpath=//nav/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Sign in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e367a296-85c9-467d-90c4-9a23985f7a06",
+      "comment": "",
+      "command": "click",
+      "target": "css=#SubmitLogin > span",
+      "targets": [
+        ["css=#SubmitLogin > span", "css:finder"],
+        ["xpath=//button[@id='SubmitLogin']/span", "xpath:idRelative"],
+        ["xpath=//p[2]/button/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3959c155-6859-4cf6-adfe-5e3dd5c7e97b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "My account - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "2dfd1970-2b1a-4a85-b066-76db84950b55",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sfHover > .sf-with-ul",
+      "targets": [
+        ["css=.sfHover > .sf-with-ul", "css:finder"],
+        ["xpath=//a[contains(text(),'Women')]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?id_category=3&controller=category']", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e76a4927-3be9-4976-92f3-d937f80b7ec0",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=T-shirts",
+      "targets": [
+        ["linkText=T-shirts", "linkText"],
+        ["css=.submenu-container > .sfHover .sfHover > a", "css:finder"],
+        ["xpath=//a[contains(text(),'T-shirts')]", "xpath:link"],
+        ["xpath=//div[@id='block_top_menu']/ul/li/ul/li/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?id_category=5&controller=category']", "xpath:href"],
+        ["xpath=//li/ul/li/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'T-shirts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d665b7-e614-4d8d-991e-8b42013e85c2",
+      "comment": "",
+      "command": "assertText",
+      "target": "id=columns",
+      "targets": [
+        ["id=columns", "id"],
+        ["css=#columns", "css:finder"],
+        ["xpath=//div[@id='columns']", "xpath:attributes"],
+        ["xpath=//div[@id='page']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//body/div/div[2]/div", "xpath:position"]
+      ],
+      "value": "> Women>Tops>T-shirts\\nCATALOG\\nSize\\nS (1)\\nM (1)\\nL (1)\\nColor\\nOrange (1)\\nBlue (1)\\nCompositions\\nCotton (1)\\nStyles\\nCasual (1)\\nProperties\\nShort Sleeve (1)\\nAvailability\\nIn stock (1)\\nManufacturer\\nFashion Manufacturer (1)\\nCondition\\nNew (1)\\nPrice\\nRange: $16.00 - $17.00\\n\\nINFORMATION\\nDelivery\\nLegal Notice\\nTerms and conditions of use\\nAbout us\\nSecure payment\\nOur stores\\nSPECIALS\\nPrinted Summer Dress\\nLong printed dress with thin...\\n$28.98 -5% $30.51\\nAll specials\\nOUR STORES\\nDiscover our stores\\nT-shirts\\nThe must have of your wardrobe, take a look at our different colors,\\nshapes and style of our collection!\\nT-SHIRTS \\nThere is 1 product.\\nView\\nGrid\\nList\\nSort by\\n--\\n--\\nPrice: Lowest first\\nPrice: Highest first\\nProduct Name: A to Z\\nProduct Name: Z to A\\nIn stock\\nReference: Lowest first\\nReference: Highest first\\nCompare (0)\\nShowing 1 - 1 of 1 item\\nFaded Short Sleeve T-shirts\\n$16.51\\nIn stock\\nCompare (0)\\nShowing 1 - 1 of 1 item"
+    }, {
+      "id": "86dc2b8d-a9a8-4e0f-b936-646f97d27e8c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ajax_add_to_cart_button > span",
+      "targets": [
+        ["css=.ajax_add_to_cart_button > span", "css:finder"],
+        ["xpath=//div[@id='center_column']/ul/li/div/div[2]/div[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Add to cart')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "58117b50-3a0d-47bd-a374-79fe474998ab",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,898.4000244140625)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "28cafd83-25f0-4f0c-98f1-774f8d6fc3b1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.continue > span",
+      "targets": [
+        ["css=.continue > span", "css:finder"],
+        ["xpath=//div[@id='layer_cart']/div/div[2]/div[4]/span/span", "xpath:idRelative"],
+        ["xpath=//div[4]/span/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4a5b7249-11b2-44f1-80ca-c9645940c785",
+      "comment": "",
+      "command": "click",
+      "target": "css=.shopping_cart > a",
+      "targets": [
+        ["css=.shopping_cart > a", "css:finder"],
+        ["xpath=//header[@id='header']/div[3]/div/div/div[3]/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://automationpractice.com/index.php?controller=order']", "xpath:href"],
+        ["xpath=//div[3]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "06bb06ba-2112-477d-a816-cdff06b02e0b",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Order - My Store",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "42ceadb6-c151-4368-ba84-e46cfbf8197e",
+      "comment": "",
+      "command": "click",
+      "target": "css=.last_item .page-subheading",
+      "targets": [
+        ["css=.last_item .page-subheading", "css:finder"],
+        ["xpath=//div[@id='center_column']/div[3]/div[2]/ul/li/h3", "xpath:idRelative"],
+        ["xpath=//div[2]/ul/li/h3", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7f34a297-2d2f-4b0d-9240-2b5d8cdab35a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4559fa47-3c8d-4576-a198-a6e2cd46d45b"]
+  }],
+  "urls": ["http://automationpractice.com/index.php"],
+  "plugins": []
+}
